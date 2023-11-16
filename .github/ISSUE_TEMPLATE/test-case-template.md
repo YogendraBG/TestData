@@ -10,33 +10,33 @@ assignees: ''
 Objective: {what's the purpose of the test}
 
 # Environment
+- [ ] Desktop 
+- [ ] Service 
 
-* {codebase and database}
 
-# Pre-conditions
+# Pre-conditions/Test Data
 
 1. {environment setup}
 2. {any tests that need to be run first}
 
-# Direct URL(s)
+# Steps
 
-1. {URLs that will be used in the test steps}
+Feature: Account Holder withdraws cash
+ 
+Scenario: Account has sufficient funds
+    Given The account balance is $100
+      And the card is valid
+      And the machine contains enough money
+     When the Account Holder requests $20
+     
+- [ ] Then the ATM should dispense $20
+- [ ]       And the account balance should be $80
+- [ ]       And the card should be returned
 
-# Input data
 
-1. {some sort of title}
-    * {data}
 
-# Prerequisites
 
-1. {instructions for setting up test}
 
-# Instructions
-
-<table>
-<tr><th>Step No.</th><th>Step description</th><th>Expected result</th></tr>
-<tr><td>1.</td><td>{what a tester should do}</td><td>{what a tester should see when they do that}</td></tr>
-</table>
 
 # Notes
 
