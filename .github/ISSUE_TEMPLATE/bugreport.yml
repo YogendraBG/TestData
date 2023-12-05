@@ -55,10 +55,10 @@ body:
       - Microsoft Edge
  
 - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: I have you selected the right Project and repo name 
-      options:
-        - label: I have selected the project and repo name correctly
-          required: true
+  id: terms
+  attributes:
+    label: Code of Conduct
+    description: I have you selected the right Project and repo name 
+    options:
+      - label: I have selected the project and repo name correctly
+      required: true
