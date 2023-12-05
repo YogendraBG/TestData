@@ -10,17 +10,17 @@ body:
   attributes:
     label: Steps to reproduce
     description: How do you reproduce this? Please provide as much step-by-step detail as possible.
-    value: |
+    🔁value: |
       1.
       2.
       3.
 
      
-        <b>Expected Bheaviour:</b>
+        ✅**Expected Bheaviour:**
         
-        <b>Actual   Bheaviour:</b>
+        ❌**Actual   Bheaviour:**
 
-        <b>Evidences Screenshots/Video/pbix: </b>
+        📸*Evidences Screenshots/Video/pbix: **
         
   validations:
     required: true
@@ -39,12 +39,4 @@ body:
       - Safari
       - Microsoft Edge
  
-- type: checkboxes
-  id: terms
-  attributes:
-    label: Code of Conduct
-    description: I have you selected the right Project and repo name 
-    options:
-      - label: I have selected the project and repo name correctly
-  validations:
-    required: true
+
