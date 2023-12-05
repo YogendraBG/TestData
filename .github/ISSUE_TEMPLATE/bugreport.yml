@@ -8,7 +8,7 @@ body:
 - type: textarea
   id: steps
   attributes:
-    label: Steps to reproduce
+    label: Issue Description 
     description: How do you reproduce this? Please provide as much step-by-step detail as possible.
     value: |
       1.
@@ -16,10 +16,10 @@ body:
       3.
 
      
-        ✅Expected Bheaviour:
+        ✅Expected Behaviour:
         -
         
-        ❌Actual   Bheaviour:
+        ❌Actual   Behaviour:
         -
 
         📸Evidences Screenshots/Video/pbix:
