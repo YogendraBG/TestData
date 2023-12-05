@@ -11,19 +11,19 @@ body:
     label: Issue Description 
     description: How do you reproduce this? Please provide as much step-by-step detail as possible.
     value: |
-      Steps to reproduce
+      ###Steps to reproduce
       1.
       2.
       3.
 
-      ❌Current   Behaviour:
-      -
+      ### ❌Current Behaviour:
+      - x
     
-      ✅Expected Behaviour:
-      -
+      ### ✅Expected Behaviour:
+      - x
         
-      📸Evidences Screenshots/Video/pbix:
-        -
+      ### 📸Evidences Screenshots/Video/pbix:
+      - x
         
   validations:
     required: true
