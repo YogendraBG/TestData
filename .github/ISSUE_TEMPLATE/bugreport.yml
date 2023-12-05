@@ -1,5 +1,5 @@
 name: 🐞 Bug Report
-description: File a bug report
+description: Bug Reporting
 title: "🐞[BUG] :  "
 labels:  [bug]
 projects: ["YogendraBG/2"]
@@ -29,7 +29,6 @@ body:
     required: true
     
       
-
       
 - type: dropdown
   id: browsers
