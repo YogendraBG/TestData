@@ -1,7 +1,7 @@
 name: 🐞 Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: [bug]
+title: "🐞[BUG] :  "
+labels:  [bug]
 projects: ["YogendraBG/2"]
 
 body:
@@ -14,36 +14,19 @@ body:
       1.
       2.
       3.
+
+     
+        <b>Expected Bheaviour:</b>
+        
+        <b>Actual   Bheaviour:</b>
+
+        <b>Evidences Screenshots/Video/pbix: </b>
+        
   validations:
     required: true
     
-- type: textarea
-  id: actual-behaviour
-  attributes:
-    label: Actual Behaviour
-    description: Also tell us, what did you expect to happen?
-    placeholder: Tell us what you see!
-    value: "Actual Behaviour"
-  validations:
-    required: true
-
-- type: textarea
-  id: expected-behaviour
-  attributes:
-    label: Expected Behaviour
-    description: Also tell us, what did you expect to happen?
-    placeholder: Tell us what you see!
-    value: "Expected Bheaviour"
-  validations:
-    required: true
       
-- type: markdown
-  attributes:
-    value: |
-      Attach your evidences here Screnshots/Videos/pbix
-      SharePoint URL for PBIX : 
-      Sharepoint URL for Video :
-      Screenshots: 
+
       
 - type: dropdown
   id: browsers
