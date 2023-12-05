@@ -1,8 +1,8 @@
 name: 🚀 Requirement Request
 description: Propose a new requirement
-title: "🚀 [REQUIREMENT] : "
+title: "🚀 [REQ] : "
 labels:
-  - enhancement
+  - ["enhancement","requirement"]
 projects: 
   - ["YogendraBG/2"]
 
