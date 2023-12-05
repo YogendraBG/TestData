@@ -41,4 +41,12 @@ body:
       - Safari
       - Microsoft Edge
  
-
+- type: checkboxes
+  id: terms
+  attributes:
+    label: Confirmation
+    description: I have you selected the right Project and repo name 
+    options:
+      - label: I have selected the project and repo name correctly
+  validations:
+    required: true
