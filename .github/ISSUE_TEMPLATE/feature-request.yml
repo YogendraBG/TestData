@@ -51,6 +51,9 @@ body:
     By submitting this requirement request, I confirm that:
       - [x] I have searched for existing requirements.
       - [x] I have read and agree to the Code of Conduct.
+  options:
+    - label: I agree to follow this project's Code of Conduct
+      required: true
   
   validations:
     required: true
