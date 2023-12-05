@@ -16,11 +16,14 @@ body:
       3.
 
      
-        ✅**Expected Bheaviour:**
+        ✅Expected Bheaviour:
+        -
         
-        ❌**Actual   Bheaviour:**
+        ❌Actual   Bheaviour:
+        -
 
-        📸*Evidences Screenshots/Video/pbix: **
+        📸Evidences Screenshots/Video/pbix:
+        -
         
   validations:
     required: true
