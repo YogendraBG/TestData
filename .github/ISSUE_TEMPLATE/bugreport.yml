@@ -18,7 +18,7 @@ body:
 - type: textarea
     id: Actual
     attributes:
-      label: Actual
+      label: Actual Behaviour
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "Actual Behavior"
@@ -28,7 +28,7 @@ body:
 - type: textarea
     id: Expected
     attributes:
-      label: Expected Bheavior
+      label: Expected Behaviour
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
