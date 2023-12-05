@@ -1,0 +1,56 @@
+name: 📋 Requirement Request
+description: Propose a new requirement
+title: "📋 [REQUIREMENT] : "
+labels:
+  - enhancement,requirement
+projects: 
+  - "yogendrabg/2"
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Requirement Description
+      description: |
+        Provide a detailed description of the new requirement you are proposing.
+
+  - type: textarea
+    id: constraints-dependencies
+    attributes:
+      label: Constraints and Dependencies
+      description: |
+        Outline any constraints or dependencies that should be considered for this requirement.
+        - 
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Add any additional context or information that might be helpful for understanding your requirement.
+
+  validations:
+    required: true
+
+  - type: input
+    id: design-links
+    attributes:
+      label: Design links
+      placeholder: please add figama link
+      description: |
+        Add Figma design line
+      
+  validations:
+    required: true
+    
+
+- type: checkboxes
+  id: terms
+  attributes:
+    label: Confirmations
+    description: |
+      By submitting this requirement request, I confirm that:
+      - [x] I have searched for existing requirements.
+      - [x] I have read and agree to the Code of Conduct.
+  validations:
+    required: true
