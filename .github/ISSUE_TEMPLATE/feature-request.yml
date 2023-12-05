@@ -2,7 +2,7 @@ name: 💡 Requirement Request
 description: Propose a new requirement
 title: "💡 [REQUIREMENT] : "
 labels:
-  - enhancement,requirement
+  - [enhancement,requirement]
 projects: 
   - "yogendrabg/2"
 
