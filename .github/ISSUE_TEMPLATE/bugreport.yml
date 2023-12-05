@@ -49,4 +49,4 @@ body:
     options:
       - label: I have selected the Project and Milestones and lables.
         required: true
-      - label: **Black cat**
+     
