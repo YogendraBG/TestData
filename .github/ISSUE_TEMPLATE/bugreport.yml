@@ -44,9 +44,9 @@ body:
 - type: checkboxes
   id: cat-preferences
   attributes:
-    label: I have selected Right Project/Milestone for the bug
+    label: Have you selected the Project, Milestones, Lables
     description: Pease confirm before creation
     options:
-      - label: I have selected the Project and Milestones and lables.
+      - label: Yes
         required: true
      
