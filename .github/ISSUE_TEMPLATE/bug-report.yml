@@ -1,5 +1,5 @@
 name: 🐞 [BUG] -  
-description: 
+description: description of bug
 labels: ['Needs: Triage :mag:', 'type:bug']
 
 body:
