@@ -4,7 +4,7 @@ title: "💡 [REQUIREMENT] : "
 labels:
   - enhancement
 projects: 
-  - "yogendrabg/2"
+  - ["YogendraBG/2"]
 
 body:
 - type: textarea
@@ -13,7 +13,9 @@ body:
     label: Requirement Description
     description: |
       Provide a detailed description of the new requirement you are proposing.
-
+  validations:
+    required: true
+    
 - type: textarea
   id: constraints-dependencies
   attributes:
@@ -40,14 +42,14 @@ body:
       Add Figma design link
       
   validations:
-    required: true
+    required: false
     
 
 - type: checkboxes
   id: terms
   attributes:
-    label: Code of Conduct
-    description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+    label: Confirmation
+    description: Is this a Feature Request?
     options:
-      - label: I agree to follow this project's Code of Conduct
+      - label: I have Selected Project, Repo and provided necessary linnks
         required: true
