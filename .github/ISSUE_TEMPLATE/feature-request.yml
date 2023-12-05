@@ -10,7 +10,7 @@ body:
 - type: textarea
   id: description
   attributes:
-    label: Requirement Description
+    label: ✔Requirement Description
     description: |
       Provide a detailed description of the new requirement you are proposing.
   validations:
@@ -19,7 +19,7 @@ body:
 - type: textarea
   id: constraints-dependencies
   attributes:
-    label: Constraints and Dependencies
+    label: 👇Constraints and Dependencies
     description: |
       Outline any constraints or dependencies that should be considered for this requirement.
       - 
@@ -27,7 +27,7 @@ body:
 - type: textarea
   id: additional-context
   attributes:
-    label: Additional Context
+    label: 📋Additional Context
     description: |
       Add any additional context or information that might be helpful for understanding your requirement.
   validations:
