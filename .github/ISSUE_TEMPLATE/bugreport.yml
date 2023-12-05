@@ -2,7 +2,7 @@ name: 🐞 Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: [bug]
-projects: [yogendrabg/2]
+projects: [YogendraBG/projects/2]
 
 body:
 - type: textarea
