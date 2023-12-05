@@ -42,12 +42,11 @@ body:
       - Microsoft Edge
  
 - type: checkboxes
-  id: terms
+  id: cat-preferences
   attributes:
-    label: Confirmation
-    description: I have you selected the right Project and repo name 
+    label: I have selected Right Project/Milestone for the bug
+    description: Pease confirm before creation
     options:
-      - label: I have selected the project and repo name correctly
-  
-  validations:
-    required: true
+      - label: I have selected the Project and Milestones and lables.
+        required: true
+      - label: **Black cat**
