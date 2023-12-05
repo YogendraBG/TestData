@@ -11,18 +11,18 @@ body:
     label: Issue Description 
     description: How do you reproduce this? Please provide as much step-by-step detail as possible.
     value: |
+      Steps to reproduce
       1.
       2.
       3.
 
-     
-        ✅Expected Behaviour:
+     ❌Current   Behaviour:
+        -
+    
+      ✅Expected Behaviour:
         -
         
-        ❌Actual   Behaviour:
-        -
-
-        📸Evidences Screenshots/Video/pbix:
+      📸Evidences Screenshots/Video/pbix:
         -
         
   validations:
@@ -40,6 +40,7 @@ body:
       - Chrome
       - Safari
       - Microsoft Edge
+      - iPad/Mobile
  
 - type: checkboxes
   id: cat-preferences
@@ -47,6 +48,6 @@ body:
     label: Have you selected the Project, Milestones, Lables
     description: Pease confirm before creation
     options:
-      - label: Yes
+      - label: Yes, I have selected.
         required: true
      
