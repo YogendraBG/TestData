@@ -1,6 +1,6 @@
-name: 📋 Requirement Request
+name: 💡 Requirement Request
 description: Propose a new requirement
-title: "📋 [REQUIREMENT] : "
+title: "💡 [REQUIREMENT] : "
 labels:
   - enhancement,requirement
 projects: 
@@ -28,8 +28,7 @@ body:
       label: Additional Context
       description: |
         Add any additional context or information that might be helpful for understanding your requirement.
-
-  validations:
+    validations:
     required: true
 
   - type: input
@@ -40,17 +39,17 @@ body:
       description: |
         Add Figma design line
       
-  validations:
+    validations:
     required: true
     
 
-- type: checkboxes
-  id: terms
-  attributes:
+  - type: checkboxes
+    id: terms
+    attributes:
     label: Confirmations
     description: |
       By submitting this requirement request, I confirm that:
       - [x] I have searched for existing requirements.
       - [x] I have read and agree to the Code of Conduct.
-  validations:
+    validations:
     required: true
