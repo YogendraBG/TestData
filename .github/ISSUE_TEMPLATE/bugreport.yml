@@ -16,22 +16,22 @@ body:
     required: true
     
 - type: textarea
-    id: Actual
+    id: actual-behaviour
     attributes:
-      label: Actual-Behaviour
+      label: Actual Behaviour
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "Actual Behavior"
+      value: "Actual Behaviour"
     validations:
       required: true
 
 - type: textarea
-    id: Expected
+    id: expected-behaviour
     attributes:
-      label: Expected-Behaviour
+      label: Expected Behaviour
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Expected Bheaviour"
     validations:
       required: true
       
