@@ -1,6 +1,6 @@
-name: 🚀 Requirement Request
+name: 💡 Requirement Request
 description: Propose a new requirement
-title: "🚀 [REQ] : "
+title: "💡[REQ] : "
 labels:
   - ["enhancement","requirement"]
 projects: 
