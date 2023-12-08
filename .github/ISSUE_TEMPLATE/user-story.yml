@@ -10,22 +10,20 @@ body:
 - type: textarea
   id: description
   description: |
-  ## User Story
-  Describe the user story in more detail here. Provide context, acceptance criteria, and any other relevant information.
-
-  ### Acceptance Criteria
-  - [ ] Criterion 1: The system should...
-  - [ ] Criterion 2: The user should be able to...
-  - [ ] Criterion 3: When [condition], then...
-
-  ### Tasks
-  - [ ] Task 1: Implement [feature/component].
-  - [ ] Task 2: Test [scenario].
-  - [ ] Task 3: Update [documentation].
-
-  ### Additional Information
-  - Priority: Medium
-  - Estimate: 2d
-  - Sprint: Sprint 1
+    Describe the user story in more detail here. Provide context, acceptance criteria, and any other relevant information.
+    ### Criteria
+    - [ ] Criterion 1: The system should...
+    - [ ] Criterion 2: The user should be able to...
+    - [ ] Criterion 3: When [condition], then...
+  
+    ### Tasks
+    - [ ] Task 1: Implement [feature/component].
+    - [ ] Task 2: Test [scenario].
+    - [ ] Task 3: Update [documentation].
+  
+    ### Additional Information
+    - Priority: Medium
+    - Estimate: 2d
+    - Sprint: Sprint 1
 validations:
   required: true
