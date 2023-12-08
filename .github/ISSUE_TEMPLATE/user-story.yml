@@ -15,6 +15,7 @@ body:
     description: |
       Describe the user story in more detail here. Provide context, acceptance criteria, and any other relevant information.
     value: |
+      **Criteria**
       - [ ] Criterion 1: The system should...
       - [ ] Criterion 2: The user should be able to...
       - [ ] Criterion 3: When [condition], then...
@@ -27,5 +28,6 @@ body:
       - Priority: Medium
       - Estimate: 2d
       - Sprint: Sprint 1
+      
   validations:
     required: true
