@@ -1,15 +1,10 @@
-name: ✳️ User-Story
-
+name: User-Story
 description: Use this template for creating user stories.
-
-title: "As a [user type], I want [an action] so that [benefit/value]."
+title: "As a [User], I want [an action] so that [benefit/value]."
 
 labels:
   - "feature"
   - "user-story"
-
-assignees:
-  - ""
 
 body: 
   ## User Story
