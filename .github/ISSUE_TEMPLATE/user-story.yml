@@ -27,5 +27,5 @@ body:
       - Priority: Medium
       - Estimate: 2d
       - Sprint: Sprint 1
-validations:
-  required: true
+  validations:
+    required: true
