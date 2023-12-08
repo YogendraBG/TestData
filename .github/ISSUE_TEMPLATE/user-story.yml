@@ -1,0 +1,27 @@
+name: 🐞 Bug Report
+description: Bug Reporting
+title: "🐞[BUG] :  "
+labels:  ["Type: Bug"]
+
+user_story:
+  title: "As a [user type], I want [an action] so that [benefit/value]."
+  description: |
+    Describe the user story in more detail here. Provide context, acceptance criteria, and any other relevant information.
+
+  acceptance_criteria:
+    - "Criterion 1: The system should..."
+    - "Criterion 2: The user should be able to..."
+    - "Criterion 3: When [condition], then..."
+
+  tasks:
+    - "Task 1: Implement [feature/component]."
+    - "Task 2: Test [scenario]."
+    - "Task 3: Update [documentation]."
+
+  labels:
+    - "feature"
+    - "user-story"
+
+  priority: "medium"
+  estimate: "2d"
+  sprint: "Sprint 1"
