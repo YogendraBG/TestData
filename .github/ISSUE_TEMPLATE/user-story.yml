@@ -1,7 +1,7 @@
 ---
-name:✳️ User Story
+name: ✳️ User Story
 
-about: Use this template for creating user stories.
+description: Use this template for creating user stories.
 
 title: "As a [user type], I want [an action] so that [benefit/value]."
 
@@ -12,7 +12,7 @@ labels:
 assignees:
   - ""
 
-body: |
+body: 
   ## User Story
   Describe the user story in more detail here. Provide context, acceptance criteria, and any other relevant information.
 
