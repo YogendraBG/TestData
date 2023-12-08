@@ -7,6 +7,9 @@ labels:
   - "user-story"
 
 body: 
+- type: textarea
+  id: description
+  description: |
   ## User Story
   Describe the user story in more detail here. Provide context, acceptance criteria, and any other relevant information.
 
@@ -24,3 +27,5 @@ body:
   - Priority: Medium
   - Estimate: 2d
   - Sprint: Sprint 1
+validations:
+  required: true
